@@ -53,6 +53,8 @@ Follow the instructions above to set up both the front-end and back-end of the a
 
 **Note:** `.env` files are not included in this repository. These files contain access tokens for the Shopify API and need to be added manually.
 
+**Note:** Backend may be slow as it is deployed on Render.com free tier.
+
 ## Live Demo
 
 Check out the live demo [here](https://shopify-app-ashen.vercel.app/).
