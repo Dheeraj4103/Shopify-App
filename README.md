@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Shopify App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains two main folders:
+1. `shopify-product` - Front-end folder
+2. `shopify-product-api` - Back-end folder
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+### Clone the Repository
 
-### `npm start`
+First, clone the repository using the following commands:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+git clone https://github.com/Dheeraj4103/Shopify-App.git
+cd Shopify-App
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Setting Up the Back-end
 
-### `npm test`
+Navigate to the `shopify-product-api` folder and install the necessary dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+cd shopify-product-api
+npm install
+```
 
-### `npm run build`
+Start the back-end server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+node index.js
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Your back-end server will be running on port 5000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Setting Up the Front-end
 
-### `npm run eject`
+Navigate to the `shopify-product` folder and install the necessary dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd ../shopify-product
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the front-end application:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Running the App
 
-## Learn More
+Follow the instructions above to set up both the front-end and back-end of the application. Ensure both servers are running to see the full functionality of the app on your local machine.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Note:** `.env` files are not included in this repository. These files contain access tokens for the Shopify API and need to be added manually.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Live Demo
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Check out the live demo [here](https://shopify-app-ashen.vercel.app/).
